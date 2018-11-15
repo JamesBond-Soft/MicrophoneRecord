@@ -1,0 +1,4 @@
+rootProject.name = 'Microphone'
+include ':react-native-sound-level'
+project(':react-native-sound-level').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-sound-level/android')
+include ':app'
